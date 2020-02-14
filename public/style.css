@@ -5,7 +5,7 @@ video{
    width: 55%;
    height:65%;
    border-radius: 5%;
-   margin-bottom:3%;    
+      
 }
 .btn{  
    background-color:#1c8ef9!important;
@@ -49,9 +49,6 @@ h1{
 }
 
 
-footer{
-
-}
 
 #sticky-footer {
    padding-bottom:0px;
