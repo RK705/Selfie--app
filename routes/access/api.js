@@ -8,6 +8,7 @@ const Images=connect.Images
 //Getall
 router.post('/getall',async(req,res,next)=>{
         const dat=req.decodedToken
+        console.log(dat)
         const data=await Images.find({"$or":[{own:dat.username},{access:dat.username}]})
                                .select({_id:0,access:0,own:0,__v:0})
         res.status(200).send(data)

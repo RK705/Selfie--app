@@ -1,6 +1,6 @@
 const mongoose  = require('mongoose');
 const uniqueValidator = require('mongoose-unique-validator');
-mongoose.connect('mongodb://localhost:27017/hariom',{ useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect('mongodb+srv://tomar:tomar@cluster0-zmjju.mongodb.net/test?retryWrites=true&w=majority',{ useNewUrlParser: true, useUnifiedTopology: true})
 mongoose.connection.on('open',()=>console.log("database connect ho gyaa bava"))
 
 const dataSchema=new mongoose.Schema({
