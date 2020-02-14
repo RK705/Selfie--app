@@ -5,10 +5,10 @@ video{
    width: 55%;
    height:65%;
    border-radius: 5%;
-      
+   margin-bottom:3%;     
 }
 .w{
-  margin-left: 5%; 
+  margin-right: 5%; 
 }
 .btn{  
    background-color:#1c8ef9!important;
