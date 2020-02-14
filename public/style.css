@@ -49,9 +49,13 @@ h1{
 }
 
 
+footer{
 
+}
 
 #sticky-footer {
+   padding-bottom:0px;
+   margin-bottom: 0px;
    flex-shrink: none;
    background-color: #1c8ef9!important;
    color: white;
