@@ -16,12 +16,18 @@ const dataSchema=new mongoose.Schema({
 const UserSchema = new mongoose.Schema({
     name:{
         type:String,
+        minlength:1,
+        required:true
     },
     passHash:{
         type:String,
+        minlength:1,
+        required:true
     },
     username:{
         type:String,
+        minlength:1,
+        required:true,
         unique:true,
     },
     data:[{
